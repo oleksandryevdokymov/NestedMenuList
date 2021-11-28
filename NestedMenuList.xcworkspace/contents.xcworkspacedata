@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/oleksandryevdokymov/Projects/NestedList/NestedMenuList/NestedMenuList.xcodeproj">
+      location = "group:NestedMenuList.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

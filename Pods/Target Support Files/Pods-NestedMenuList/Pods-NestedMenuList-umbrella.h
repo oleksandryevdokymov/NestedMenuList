@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_NestedListVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_NestedListVersionString[];
+FOUNDATION_EXPORT double Pods_NestedMenuListVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_NestedMenuListVersionString[];
 

@@ -20,15 +20,15 @@
 		60874F8F267B4899006B04DF /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60874F8E267B4898006B04DF /* MenuService.swift */; };
 		60874F91267B82C0006B04DF /* TitleSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60874F90267B82C0006B04DF /* TitleSectionModel.swift */; };
 		60874F98267B9070006B04DF /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60874F97267B9070006B04DF /* SectionHeaderView.swift */; };
-		6323994E698F8C9371FADF79 /* Pods_NestedList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05396D3F9559FA0421A83CD1 /* Pods_NestedList.framework */; };
 		7FD64B092753E2E80081A885 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD64B082753E2E80081A885 /* SettingsCell.swift */; };
 		7FD64B0B2753E2F10081A885 /* SettingsItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD64B0A2753E2F10081A885 /* SettingsItemModel.swift */; };
 		7FD64B0D2753E2F90081A885 /* SettingsSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD64B0C2753E2F90081A885 /* SettingsSectionController.swift */; };
 		7FD64B0F2753E3020081A885 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD64B0E2753E3020081A885 /* SettingsViewModel.swift */; };
+		D61B6EB2FA0D11D1E3876C34 /* Pods_NestedMenuList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4CBE862597E4F645A1D454 /* Pods_NestedMenuList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05396D3F9559FA0421A83CD1 /* Pods_NestedList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4CBE862597E4F645A1D454 /* Pods_NestedMenuList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedMenuList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60131277267889BB00CD0012 /* NestedMenuList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedMenuList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6013127A267889BB00CD0012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6013127C267889BB00CD0012 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +48,9 @@
 		7FD64B0A2753E2F10081A885 /* SettingsItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsItemModel.swift; sourceTree = "<group>"; };
 		7FD64B0C2753E2F90081A885 /* SettingsSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSectionController.swift; sourceTree = "<group>"; };
 		7FD64B0E2753E3020081A885 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		9A1E81DA59D4451FC3441C9B /* Pods-NestedMenuList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedMenuList.debug.xcconfig"; path = "Target Support Files/Pods-NestedMenuList/Pods-NestedMenuList.debug.xcconfig"; sourceTree = "<group>"; };
 		9A48AF481E169CECDC477C09 /* Pods-NestedList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedList.debug.xcconfig"; path = "Target Support Files/Pods-NestedList/Pods-NestedList.debug.xcconfig"; sourceTree = "<group>"; };
+		CD81AC4F244F2D1E54DEA358 /* Pods-NestedMenuList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedMenuList.release.xcconfig"; path = "Target Support Files/Pods-NestedMenuList/Pods-NestedMenuList.release.xcconfig"; sourceTree = "<group>"; };
 		EA6FD9683DFCFDB8CF6818A8 /* Pods-NestedList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedList.release.xcconfig"; path = "Target Support Files/Pods-NestedList/Pods-NestedList.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6323994E698F8C9371FADF79 /* Pods_NestedList.framework in Frameworks */,
+				D61B6EB2FA0D11D1E3876C34 /* Pods_NestedMenuList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,8 @@
 			children = (
 				9A48AF481E169CECDC477C09 /* Pods-NestedList.debug.xcconfig */,
 				EA6FD9683DFCFDB8CF6818A8 /* Pods-NestedList.release.xcconfig */,
+				9A1E81DA59D4451FC3441C9B /* Pods-NestedMenuList.debug.xcconfig */,
+				CD81AC4F244F2D1E54DEA358 /* Pods-NestedMenuList.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -151,7 +155,7 @@
 		626458E27FF46BD7024AADF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				05396D3F9559FA0421A83CD1 /* Pods_NestedList.framework */,
+				1C4CBE862597E4F645A1D454 /* Pods_NestedMenuList.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +171,7 @@
 				60131273267889BB00CD0012 /* Sources */,
 				60131274267889BB00CD0012 /* Frameworks */,
 				60131275267889BB00CD0012 /* Resources */,
-				E71F75C38195F75F7FB53FB4 /* [CP] Embed Pods Frameworks */,
+				C5BCF45F5BAD3DDF14041E87 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,28 +242,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NestedList-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NestedMenuList-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E71F75C38195F75F7FB53FB4 /* [CP] Embed Pods Frameworks */ = {
+		C5BCF45F5BAD3DDF14041E87 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NestedList/Pods-NestedList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NestedMenuList/Pods-NestedMenuList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NestedList/Pods-NestedList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NestedMenuList/Pods-NestedMenuList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NestedList/Pods-NestedList-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NestedMenuList/Pods-NestedMenuList-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,7 +423,7 @@
 		};
 		6013128C267889BD00CD0012 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A48AF481E169CECDC477C09 /* Pods-NestedList.debug.xcconfig */;
+			baseConfigurationReference = 9A1E81DA59D4451FC3441C9B /* Pods-NestedMenuList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,7 +443,7 @@
 		};
 		6013128D267889BD00CD0012 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA6FD9683DFCFDB8CF6818A8 /* Pods-NestedList.release.xcconfig */;
+			baseConfigurationReference = CD81AC4F244F2D1E54DEA358 /* Pods-NestedMenuList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
